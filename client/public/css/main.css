@@ -1,0 +1,14 @@
+body {
+  background: #cebd95;
+}
+
+table,tr,th,td {
+  text-align:center;
+  padding: 5px 15px;
+  border-spacing:0 2px;
+  /* border-collapse:collapse; */
+}
+
+tr {
+  background: rgba(255,255,255,0.7);
+}

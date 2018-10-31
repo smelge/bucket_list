@@ -3,11 +3,28 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript" src="/js/bundle.js"></script>
     <title>Bucket List</title>
   </head>
   <body>
     <h1>The Bucket List</h1>
-    Input form
-    Show List
+    <div id="wrapper">
+      <div id="left-shark">
+          <form id="new-item">
+            <div>
+              <label for="activity">Activity?</label><br>
+              <input type="text" name="item" placeholder="What would you like to do?">
+              </br>
+              <label for="date">When do you want to do it?</label><br>
+              <input type="date" name="date">
+              </br>
+              <input type="submit" id="save" value="Save!">
+            </div>
+          </form>
+      </div>
+      <div id="right-shark">
+        <table id="list-items"></table>
+      </div>
+    </div>
   </body>
 </html>
